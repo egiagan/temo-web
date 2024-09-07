@@ -24,17 +24,20 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#">My Orders</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#">Orders</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Farmers/Suppliers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Refund Policy</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Learning</a>
+                <a class="nav-link" href="#">Customer Support</a>
               </li>
             </ul>
       
@@ -53,159 +56,188 @@
    
     
     <!-- Home Page After Login -->
-    <section class="container mt-5">
-        <!-- Welcome Message -->
-        <div class="row mb-4">
-          <div class="col text-center">
-            <h1>Welcome to Temo Agriculture</h1>
-            <p>Your marketplace for fresh farm produce.</p>
-          </div>
-        </div>
-      
-        <!-- Buyer Section -->
+    <section id="buyer-section" class="container mt-5">
+        
         <div class="row mb-5">
-          <div class="col-md-6">
-            <h2>For Buyers</h2>
-            <p>Browse fresh produce and products from local farmers.</p>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Search for products..." aria-label="Search for products" aria-describedby="search-button">
-              <button class="btn btn-primary" type="button" id="search-button">Search</button>
+            <div class="col-md-6">
+              <h2>For Buyers</h2>
+              <p>Browse fresh produce and products from local farmers.</p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for products..." aria-label="Search for products" aria-describedby="search-button">
+                <button class="btn btn-primary" type="button" id="search-button">Search</button>
+              </div>
+              <a href="#" class="btn btn-success">Browse Products</a>
             </div>
-            <a href="#" class="btn btn-success">Browse Products</a>
-          </div>
-      
-          <div class="col-md-6">
-            <img src="https://images.pexels.com/photos/1691180/pexels-photo-1691180.jpeg?auto=compress&cs=tinysrgb&w=600" style="max-height: 600px;" class="img-fluid" alt="Fresh Produce">
-          </div>
+       </div>
+  
+
+        
+       
 
           <!-- Product Grid Section -->
-<section class="container mt-5">
-    <div class="row">
-      <!-- Product 1 -->
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 text-center">
-          <img src="https://example.com/product1.jpg" class="card-img-top" alt="Product 1" style="height: 200px; object-fit: cover;">
-          <div class="card-body">
-            <h5 class="card-title">Product 1</h5>
-            <a href="#" class="btn btn-primary">View Product</a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Product 2 -->
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 text-center">
-          <img src="https://example.com/product2.jpg" class="card-img-top" alt="Product 2" style="height: 200px; object-fit: cover;">
-          <div class="card-body">
-            <h5 class="card-title">Product 2</h5>
-            <a href="#" class="btn btn-primary">View Product</a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Product 3 -->
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 text-center">
-          <img src="https://example.com/product3.jpg" class="card-img-top" alt="Product 3" style="height: 200px; object-fit: cover;">
-          <div class="card-body">
-            <h5 class="card-title">Product 3</h5>
-            <a href="#" class="btn btn-primary">View Product</a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Additional products can follow the same structure -->
-  
+<div class="container mt-5" >
+    <div class="row" id="our-products">
+
     </div>
-  </section>
-  
-  <!-- Include Bootstrap CSS & JS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-        </div>
+ </div>
+
+
+ </section>
+
+       
       
+        <section id="seller-section" class="container">
         <!-- Farmer Section -->
-        <div class="row">
-          <div class="col-md-6">
-            <img src="https://images.pexels.com/photos/95425/pexels-photo-95425.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid" alt="Farmers Market">
-          </div>
-      
-          <div class="col-md-6">
+          <div class="col mb-4">
             <h2>For Farmers</h2>
             <p>Manage your products and add new produce to the marketplace.</p>
             <a href="#" class="btn btn-warning">View My Products</a>
                  <!-- Add New Product Button -->
 <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">Add New Product</button>
-
-          </div>
         </div>
-      </section>
+
+        <div class="row mb-4">
+        <div class=" col-6 my-orders">
+            <ul class="list-group">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </div>
+
+        <div class="col-6 my-earnings">
+
+        </div>
+    </div>
+
+</section>
       
-      <style>
-        .img-fluid {
-          max-width: 100%;
-          height: auto;
-        }
-      </style>
+     
 
       
  
 <!-- Modal Structure -->
+<!-- Modal Structure -->
 <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="addProductModalLabel">Add New Product</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-
-      <div class="modal-body">
-        <form>
-          <!-- Product Name -->
-          <div class="mb-3">
-            <label for="productName" class="form-label">Product Name</label>
-            <input type="text" class="form-control" id="productName" placeholder="Enter product name" required>
-          </div>
-
-          <!-- Product Description -->
-          <div class="mb-3">
-            <label for="productDescription" class="form-label">Product Description</label>
-            <textarea class="form-control" id="productDescription" rows="3" placeholder="Enter product description" required></textarea>
-          </div>
-
-          <!-- Product Price -->
-          <div class="mb-3">
-            <label for="productPrice" class="form-label">Price (in USD)</label>
-            <input type="number" class="form-control" id="productPrice" placeholder="Enter price" required>
-          </div>
-
-          <!-- Location -->
-          <div class="mb-3">
-            <label for="productLocation" class="form-label">Location</label>
-            <input type="text" class="form-control" id="productLocation" placeholder="Enter product location" required>
-          </div>
-
-          <!-- Product Photos -->
-          <div class="mb-3">
-            <label for="productPhotos" class="form-label">Product Photos</label>
-            <input class="form-control" type="file" id="productPhotos" multiple>
-            <small class="text-muted">You can upload up to 5 images.</small>
-          </div>
-        </form>
-      </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Upload Product</button>
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addProductModalLabel">Add New Product</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+          <form id="productForm">
+            <!-- Product Name -->
+            <div class="mb-3">
+              <label for="productName" class="form-label">Product Name</label>
+              <input type="text" class="form-control" id="productName" placeholder="Enter product name" required>
+            </div>
+  
+            <!-- Product Description -->
+            <div class="mb-3">
+              <label for="productDescription" class="form-label">Product Description</label>
+              <textarea class="form-control" id="productDescription" rows="3" placeholder="Enter product description" required></textarea>
+            </div>
+  
+            <!-- Product Price -->
+            <div class="mb-3">
+              <label for="productPrice" class="form-label">Price (in USD)</label>
+              <input type="number" class="form-control" id="productPrice" placeholder="Enter price" required>
+            </div>
+  
+            <!-- Quantity -->
+            <div class="mb-3">
+              <label for="productQuantity" class="form-label">Quantity</label>
+              <input type="number" class="form-control" id="productQuantity" placeholder="Enter quantity" required>
+            </div>
+  
+            <!-- Location -->
+            <div class="mb-3">
+              <label for="productLocation" class="form-label">Location</label>
+              <input type="text" class="form-control" id="productLocation" placeholder="Enter product location" required>
+            </div>
+  
+            <!-- Product Photo -->
+            <div class="mb-3">
+              <label for="productPhoto" class="form-label">Product Photo</label>
+              <input class="form-control" type="file" id="productPhoto" required>
+            </div>
+          </form>
+        </div>
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button id="createProduct" class="btn btn-primary">Upload Product</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  
+
+<footer class="bg-light text-dark py-5">
+    <div class="container">
+        <div class="row">
+            <!-- About Us Section -->
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">About Temo Agriculture</h5>
+                <p>
+                    Temo Agriculture is a marketplace designed for farmers to sell their produce directly to buyers. 
+                    We connect local farmers with consumers, making it easier to access fresh, local agricultural products.
+                </p>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt me-2"></i>45 Farmer's Road, Agritown, SA</li>
+                    <li><i class="fas fa-phone me-2"></i>(+27) 987-654-3210</li>
+                    <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@temoagriculture.com" class="text-dark">info@temoagriculture.com</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links Section -->
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Home</a></li>
+                    <li><a href="#" class="text-dark">Farmers</a></li>
+                    <li><a href="#" class="text-dark">Buyers</a></li>
+                    <li><a href="#" class="text-dark">Products</a></li>
+                    <li><a href="#" class="text-dark">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p class="mb-0">
+                    © 2024 Temo Agriculture. All rights reserved.
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!-- Include Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Include Bootstrap CSS & JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+
     <script src="home.js" type="module" defer></script>
+
+    <style>
+        #product-photo{
+            max-height: 180px;
+        }
+    </style>
 </body>
 </html>
