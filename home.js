@@ -54,7 +54,7 @@ onAuthStateChanged(auth, async (user) => {
           alert("im a buyer")
           sellerSection.classList.add("d-none");
           buyerSection.classList.remove("d-none");
-        } else if (userData.role === "seller") {
+        } else if (userData.role === "farmer") {
 
 alert("im a seller")
           // Hide buyer section, show seller section

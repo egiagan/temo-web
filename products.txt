@@ -1,0 +1,89 @@
+1. Organic Corn Seeds
+
+    Name: Organic Corn Seeds
+    Description: High-quality organic corn seeds suitable for planting in rural areas. Ideal for small to medium-sized farms.
+    Price: R350
+    Quantity: 100 packs
+    Location: Limpopo
+    Image URL: https://example.com/cornseeds.jpg
+
+2. Fertilizer Blend (5kg)
+
+    Name: All-Purpose Fertilizer Blend
+    Description: 5kg bag of balanced fertilizer suitable for various crops, promoting healthy growth and increased yield.
+    Price: R150
+    Quantity: 80 bags
+    Location: KwaZulu-Natal
+    Image URL: https://example.com/fertilizer.jpg
+
+3. Agricultural Hand Tools Set
+
+    Name: Agricultural Hand Tools Set
+    Description: Comprehensive set of hand tools including a spade, fork, trowel, and hoe, designed for efficient farming and gardening.
+    Price: R450
+    Quantity: 60 sets
+    Location: Eastern Cape
+    Image URL: https://example.com/handtools.jpg
+
+4. Pesticide (1L)
+
+    Name: Organic Pesticide (1L)
+    Description: 1-liter bottle of organic pesticide to protect crops from pests and diseases, safe for use on vegetables and fruits.
+    Price: R200
+    Quantity: 50 bottles
+    Location: Mpumalanga
+    Image URL: https://example.com/pesticide.jpg
+
+5. Water Pump (Electric)
+
+    Name: Electric Water Pump
+    Description: Reliable electric water pump for irrigation, capable of efficiently supplying water to large fields.
+    Price: R1,200
+    Quantity: 20 units
+    Location: Free State
+    Image URL: https://example.com/waterpump.jpg
+
+6. Animal Feed (50kg)
+
+    Name: Livestock Feed (50kg)
+    Description: Nutrient-rich livestock feed designed to support the health and growth of cattle, sheep, and goats.
+    Price: R400
+    Quantity: 70 bags
+    Location: North West
+    Image URL: https://example.com/animalfeed.jpg
+
+7. Irrigation Hose (50m)
+
+    Name: 50m Irrigation Hose
+    Description: Durable 50-meter irrigation hose suitable for setting up efficient watering systems in agricultural fields.
+    Price: R250
+    Quantity: 40 hoses
+    Location: Western Cape
+    Image URL: https://example.com/irrigationhose.jpg
+
+8. Greenhouse Seedlings
+
+    Name: Greenhouse Seedlings
+    Description: Ready-to-plant seedlings for various vegetables and herbs, grown in a controlled greenhouse environment.
+    Price: R180 per tray
+    Quantity: 30 trays
+    Location: Gauteng
+    Image URL: https://example.com/seedlings.jpg
+
+9. Farm Tractor Rental (Daily)
+
+    Name: Farm Tractor Rental (Per Day)
+    Description: Daily rental of a farm tractor for plowing, planting, and harvesting. Includes basic maintenance and fuel.
+    Price: R2,500 per day
+    Quantity: 10 rentals
+    Location: Northern Cape
+    Image URL: https://example.com/tractor.jpg
+
+10. Beehive Kit
+
+    Name: Beehive Kit
+    Description: Complete beehive kit for starting beekeeping, including hive boxes, frames, and a protective suit.
+    Price: R900
+    Quantity: 15 kits
+    Location: Mpumalanga
+    Image URL: https://example.com/beehive.jpg
