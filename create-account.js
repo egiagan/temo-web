@@ -62,7 +62,7 @@ register.addEventListener("click", function (event) {
                 })
                 .catch((error) => {
                     console.error("Error sending email verification: ", error);
-                    alert("Error sending verification email");
+                    alert("sending verification email");
                     spinner.style.display = "none";
                 });
         })
