@@ -3,17 +3,13 @@ import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWith
 import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAXM9aKhpYfQqOmlpB1N7yhca6B46PY4w4",
-
-  authDomain: "temo-agriculture-c28d3.firebaseapp.com",
-
-  projectId: "temo-agriculture-c28d3",
-
-  storageBucket: "temo-agriculture-c28d3.appspot.com",
-
-  messagingSenderId: "175597932867",
-
-  appId: "1:175597932867:web:05506f5051c6eead711ff6"
+  apiKey: "AIzaSyDAlth1sxiP-S3r3fVDXhwadVVnEvpdO6s",
+  authDomain: "login-egi-agan.firebaseapp.com",
+  databaseURL: "https://login-egi-agan-default-rtdb.firebaseio.com",
+  projectId: "login-egi-agan",
+  storageBucket: "login-egi-agan.firebasestorage.app",
+  messagingSenderId: "395059466114",
+  appId: "1:395059466114:web:5c6b0621e9739df6b5c99b"
 
 };
 
@@ -95,7 +91,7 @@ google.addEventListener("click", function registerWithGoogle() {
                 phone: 'Not provided'
             })
             .then(() => {
-                window.location.href = "dashboard.html";
+                window.location.href = "/p/index.html";
             })
             .catch((error) => {
                 console.error("Error writing document: ", error);
