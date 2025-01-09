@@ -12,11 +12,10 @@ const firebaseConfig = {
   appId: "1:395059466114:web:5c6b0621e9739df6b5c99b"
 
 };
-
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
-const db = getFirestore(app);
+const auth = getAuth(app)
+auth.useDeviceLanguage()
 
 auth.useDeviceLanguage();
 
@@ -91,7 +90,7 @@ google.addEventListener("click", function registerWithGoogle() {
                 phone: 'Not provided'
             })
             .then(() => {
-                window.location.href = "/p/index.html";
+                window.location.href = "dashboard.html";
             })
             .catch((error) => {
                 console.error("Error writing document: ", error);
